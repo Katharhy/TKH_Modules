@@ -4,7 +4,7 @@
 --third-color:#990099;
 --fourth-color:black;
 --font:'Inconsolata';
---shadow:03px 6px rgba(0,0,0,0.16),03px 6px rgba(0,0,0,0.23)
+--shadow:0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
 }
 
 html{font-size:calc(1em+1vw)}
@@ -25,7 +25,7 @@ body{
 .banner{
     width:100%;
     display:flex;
-    align-items:none;
+    align-items:center;
     list-style-type:none;
     background-color:var(--forth-color);
     position:fixed;
@@ -42,20 +42,20 @@ body{
 }
 
 a{
-color:var(--third-color);
-width:100px;
-text-decoration:none;
+    color:var(--third-color);
+    width:100px;
+    text-decoration:none;
 }
 /*:hover selects with mouse hover over the item*/
 a:hover{
     Color:var(--first-color);
 }
 .banner li{
-display:inline;
-margin:1rem;
+    display:inline;
+    margin:1rem;
 }
 .banner ul{
-list-style-type:none;
+    list-style-type:none;
 }
 
 /*about me*/
@@ -63,7 +63,7 @@ list-style-type:none;
     display:flex;
     width:80vw;
     padding:1rem;
-    margin:5rem;
+    margin:.5rem;
     border-radius:6px;
     background-color: var(--seconde-color);
     box-shadow: var(--shadow);
@@ -89,7 +89,7 @@ list-style-type:none;
 /*career*/
 .career{
     display:flex;
-    margin:5rem;
+    margin:.5rem;
     width: calc(80vw+2rem);
 }
 .goals{
@@ -132,7 +132,7 @@ list-style-type:none;
     background-color: var(--third-color);
     border-radius:8px;
 }
-.rpoject a{
+.project a{
     color:#fff;
 }
 /*ccss transition allows to change valus easly over time*/
@@ -147,7 +147,7 @@ list-style-type:none;
     display:flex;
     justify-content:center;
     padding:1rem;
-    margin:5rem;
+    margin:.5rem;
     width:80%;
     box-shadow: var(--shadow);
     background-color: var(--second-color);
@@ -162,7 +162,7 @@ Input{
     min-width:30vw;
     margin-botton:15px;
     margin-top:5px;
-    padding:5rem;
+    padding:.5rem;
 }
 /*specific input element attrt*/
 input[type=submit],{
@@ -207,7 +207,6 @@ input[type=submit]:hover{
 .footer{
     width:100vw;
     margin:1rem;
-    padding:1rem;
     background-color: var(--forth-color);
     text-align:center;
     color:#fff;
